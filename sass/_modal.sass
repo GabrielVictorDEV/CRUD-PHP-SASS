@@ -1,0 +1,72 @@
+@import 'main.sass'   
+
+.modal-container
+    width: 100vw
+    height: 100vw
+    background: rgba(0, 0, 0, .5)
+    position: fixed
+    top: 0px
+    left: 0px
+    display: none
+    animation: animate
+    animation-duration: 800ms
+
+    .modal
+        width: 670px
+        height: 170px
+        padding: 15px 20px
+        background-color: $font-clear
+        @extend .box-shadow
+        border-radius: 2px
+        position: absolute
+        top: 15%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+    .modal-content > p
+        font-size: 15px
+
+    .title-modal
+        font-size: 36.5px
+        font-weight: 400
+        padding: 0px
+        margin: 0px
+
+    .btn-red
+        cursor: pointer
+        text-transform: uppercase
+        color: white
+        text-decoration: none
+        font-weight: 300
+        padding: 8px 12px 5px 12px
+        padding-bottom: 7px
+        font-size: 14px
+        background-color: $btn-del
+        border: none
+        border-radius: 3px
+        margin-right: 10px
+        @extend .box-shadow
+        
+        &:hover
+            background-color: $btn-del-clear
+
+    .btn-cancelar
+        background-color: $font-clear
+        text-decoration: none
+        text-transform: uppercase
+        color: $font-smoke    
+        
+    .modal-footer
+        margin-top: 40px
+        display: inline-block
+        float: right
+
+    //.message
+        //padding: 19px 60px
+        //position: fixed
+        //top: 20px
+        //right: 105px
+        //background-color: black
+        //border-radius: 3px
+        //color: $font-clear
+                    

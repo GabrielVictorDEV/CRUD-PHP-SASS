@@ -1,0 +1,291 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarel, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title, .title-form, .title-index {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.display, .main {
+  display: flex;
+  justify-content: center;
+}
+
+.box-shadow, .modal-container .btn-red, .modal-container .modal, .form .btn-lista, .form .btn-cadastrar, .btn-adicionar, .img-del, .img {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-fomat, .img-del, .img {
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+table {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 20px;
+  border-spacing: 0;
+}
+table tbody > tr:nth-child(2n) {
+  background-color: #fff;
+}
+table tr {
+  background-color: rgba(242, 242, 242, 0.5);
+}
+table th {
+  padding: 5px;
+  padding-bottom: 15px;
+  font-size: 15px;
+  min-width: 100px;
+  text-align: left;
+  background-color: #fff;
+}
+table td {
+  padding-left: 0px;
+  border-collapse: collapse;
+  font-size: 15px;
+  padding: 15px 10px 15px 10px;
+}
+table a {
+  padding: 0px;
+}
+
+.img {
+  background-color: #ffa500;
+}
+
+.img-del {
+  background-color: #ff0000;
+}
+
+.btn-adicionar {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.btn-adicionar:hover {
+  background-color: #53c9bd;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarel, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title, .title-form, .title-index {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.display, .main {
+  display: flex;
+  justify-content: center;
+}
+
+.box-shadow, .modal-container .btn-red, .modal-container .modal, .form .btn-lista, .form .btn-cadastrar, .img, .img-del, .btn-adicionar {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-fomat, .img, .img-del {
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarel, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title, .title-form, .title-index {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.display, .main {
+  display: flex;
+  justify-content: center;
+}
+
+.box-shadow, .modal-container .btn-red, .modal-container .modal, .form .btn-lista, .form .btn-cadastrar, .img, .img-del, .btn-adicionar {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-fomat, .img, .img-del {
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.form {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  width: 50%;
+}
+.form .input {
+  width: 600px;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 50px;
+}
+.form .input:nth-last-child(3) {
+  padding-bottom: 25px;
+}
+.form .input-form {
+  background: none;
+  padding-bottom: 16px;
+  border: none;
+  border-bottom: 1px solid #9e9e9e;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  letter-spacing: 2px;
+}
+.form .input-form:focus ~ .label, .form .input-form:valid ~ .label {
+  top: -20px;
+  font-size: 12px;
+}
+.form .label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  padding-left: 20px;
+  transition: 0.5s;
+  color: #9e9e9e;
+}
+.form .btn-cadastrar {
+  text-transform: uppercase;
+  color: #fff;
+  width: 130px;
+  height: 35px;
+  font-size: 13px;
+  background-color: #26a69a;
+  border: none;
+  border-radius: 3px;
+  margin-right: 2px;
+}
+.form .btn-cadastrar:hover {
+  background-color: #53c9bd;
+}
+.form .btn-lista {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 22px;
+  padding-bottom: 10px;
+  font-size: 13px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.form .btn-lista:hover {
+  background-color: #60c763;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarel, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.title, .title-index, .title-form {
+  font-size: 45px;
+  font-weight: 300;
+  margin: 0px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.display, .main {
+  display: flex;
+  justify-content: center;
+}
+
+.box-shadow, .modal-container .btn-red, .modal-container .modal, .img, .img-del, .btn-adicionar, .form .btn-cadastrar, .form .btn-lista {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-fomat, .img, .img-del {
+  width: 20px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.modal-container {
+  width: 100vw;
+  height: 100vw;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: none;
+  animation: animate;
+  animation-duration: 800ms;
+}
+.modal-container .modal {
+  width: 670px;
+  height: 170px;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-radius: 2px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.modal-container .modal-content > p {
+  font-size: 15px;
+}
+.modal-container .title-modal {
+  font-size: 36.5px;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+}
+.modal-container .btn-red {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  padding: 8px 12px 5px 12px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+.modal-container .btn-red:hover {
+  background-color: #d41c00;
+}
+.modal-container .btn-cancelar {
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #808080;
+}
+.modal-container .modal-footer {
+  margin-top: 40px;
+  display: inline-block;
+  float: right;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+@import 'main.sass'
+
+.title-form
+    @extend .title
+
+.form
+    position: absolute
+    top: 45%
+    left: 50%
+    transform: translate(-50%, -50%)
+  
+    padding: 15px
+    width: 50%
+
+    .input
+        width: 600px
+        position: relative
+        padding-left: 20px
+        padding-bottom: 50px
+        &:nth-last-child(3)
+            padding-bottom: 25px
+
+    .input-form
+        background: none
+        padding-bottom: 16px
+        border: none
+        border-bottom: 1px solid $table-gray-clear
+        outline: none
+        font-size: 14px
+        width: 100%
+        letter-spacing: 2px
+        &:focus ~ .label,
+        &:valid ~ .label 
+            top: -20px
+            font-size: 12px
+
+    .label
+        position: absolute
+        top: 0px
+        left: 0px
+        pointer-events: none
+        padding-left: 20px
+        transition: .5s
+        color: $table-gray-clear
+
+    .btn-cadastrar
+        text-transform: uppercase
+        color: $font-clear
+        width: 130px
+        height: 35px
+        font-size: 13px
+        background-color: $primary
+        border: none
+        border-radius: 3px
+        margin-right: 2px
+        @extend .box-shadow
+        
+        &:hover
+            background-color: $primary-clear
+
+    .btn-lista
+        text-transform: uppercase
+        color: $font-clear
+        text-decoration: none
+        padding: 8px 22px
+        padding-bottom: 10px
+        font-size: 13px
+        background-color: $secondary
+        @extend .box-shadow
+        border: none
+        border-radius: 3px
+        margin-right: 10px
+
+        &:hover
+            background-color: $secondary-clear
+
+
+
+
